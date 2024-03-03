@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    text-align: center;
+    background-image: url("coffee.jpg");
+    background-size: cover; 
+    background-position: bottom; 
+    padding: 80px; 
+    color: white; 
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .but {
+  
+    padding: 15px 20px;
+    border-radius: 2px;
+    background-color: #eb2121; 
+    color: white;
+    cursor: pointer;
+    border: none; /*bỏ viền*/
+  }

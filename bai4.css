@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+    
+  }
+ .khung {
+    background-color:rgb(206, 218, 237);
+    width: 900px;
+    height: 17cm;
+}
+ .khung img {
+    position: relative;
+    left: 44%;
+    top:3cm;
+    width: 3cm;
+    }
+ 
+.khung h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 3cm;
+  }
+  .khung p{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    line-height: 3cm;
+  }
+
+  .input-box input {
+    width: 10cm;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+    left: 6.5cm;
+    bottom: 0.75cm;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white
+  }
+  .input-box input::placeholder{
+    outline-color: black;
+    position: relative;
+    left:0.3cm;
+  }
+
+  .khung .but{
+  width: 4.5cm;
+  height: 60px;
+  background: #033eff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  left: 9.7cm;
+  bottom: 0.75cm;
+  border-radius: 5px;
+  border: solid #033eff;
+  }
+  
+  
+  
